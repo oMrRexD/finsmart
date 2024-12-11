@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #FFFDA6, #FFFFFF);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1,
+h2,
+h3 {
+    color: #000;
+}
+
+.rounded-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+}
+
+.card {
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.credit-card {
+    width: 340px;
+    height: 180px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.card-body .card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bill {
+    padding-right: 40px;
+}
+
+.logocard {
+    width: 25px;
+    align-self: flex-start;
+}
+
+.mastercard {
+    width: 40px;
+    height: 40px;
+
+}
+
+.money {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moneytext {
+    display: flex;
+    align-self: flex-end;
+    margin: 2rem 1rem 2rem 0;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button.btn {
+    color: #000;
+    font-size: 14px;
+    height: fit-content;
+    font-weight: bold;
+}
+
+button.btn i {
+    font-size: 16px;
+
+}
+
+button.btn:hover {
+    background-color: #f1f1f1;
+}
